@@ -13,7 +13,7 @@
 }
 
 body {
-  background: var(--white-color);
+  background-color: var(--white-color);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -611,9 +611,6 @@ img {
   color: var(--white-color);
 }
 
-.footer-input::placeholder {
-  color: var(--white-color);
-}
 .footer-btn {
   min-width: 165px;
   height: 40px;
@@ -631,7 +628,7 @@ img {
   border: none;
   border-radius: 4px;
   padding: 8px 24px;
- }
+}
 
 .footer-icon-form {
   fill: var(--white-color);
