@@ -544,10 +544,13 @@ img {
   color: var(--cloud-color);
   max-width: 264px;
 }
+.footer-container-social {
+  margin-right: 80px;
+}
 
 .footer-text-social {
   font-weight: 500;
-  color: #ffffff;
+  color: var(--white-color);
   margin-bottom: 16px;
 }
 
@@ -580,6 +583,57 @@ img {
 .footer-icon-link:hover,
 .footer-icon-link:focus {
   background-color: var(--green-color);
+}
+
+.footer-text-form {
+  font-weight: 500;
+  color: var(--white-color);
+  margin-bottom: 16px;
+}
+
+.footer-cont-form {
+  display: flex;
+}
+
+.footer-input {
+  min-width: 264px;
+  height: 40px;
+  border: 1px solid var(--white-color);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  padding: 6px 14px 10px 14px;
+  margin-right: 24px;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+}
+
+.footer-input::placeholder {
+  color: var(--white-color);
+}
+.footer-btn {
+  display: block;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 24px;
+  gap: 16px;
+  min-width: 165px;
+  height: 40px;
+  color: var(--white-color);
+  background-color: var(--iris-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  transition: background-color var(--tra-dur-and-func);
+}
+
+.footer-icon-form {
+  fill: var(--white-color);
 }
 
 /*TODO Modal window*/
