@@ -591,8 +591,9 @@ img {
   margin-bottom: 16px;
 }
 
-.footer-cont-form {
+.footer-form {
   display: flex;
+  gap: 24px;
 }
 
 .footer-input {
@@ -602,38 +603,39 @@ img {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   padding: 6px 14px 10px 14px;
-  margin-right: 24px;
   cursor: pointer;
   background-color: transparent;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
+  color: var(--white-color);
 }
 
 .footer-input::placeholder {
   color: var(--white-color);
 }
 .footer-btn {
-  display: block;
-  border: none;
-  border-radius: 4px;
-  padding: 8px 24px;
-  gap: 16px;
   min-width: 165px;
   height: 40px;
-  color: var(--white-color);
-  background-color: var(--iris-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  color: var(--white-color);
   cursor: pointer;
-  transition: background-color var(--tra-dur-and-func);
-}
+  background-color: var(--iris-color);
+  border: none;
+  border-radius: 4px;
+  padding: 8px 24px;
+ }
 
 .footer-icon-form {
   fill: var(--white-color);
+  margin-left: 16px;
 }
 
 /*TODO Modal window*/
