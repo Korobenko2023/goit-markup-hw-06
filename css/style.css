@@ -729,7 +729,7 @@ img {
 .modal-input {
   width: 360px;
   height: 40px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
+  border: 1px solid var(--navy-color);
   border-radius: 4px;
   padding-left: 38px;
   background-color: transparent;
@@ -771,9 +771,9 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: rgba(46, 47, 66, 0.4);
+  color: var(--navy-color);
   padding: 8px 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
+  border: 1px solid var(--navy-color);
   border-radius: 4px;
   resize: none;
   background-color: transparent;
@@ -800,9 +800,9 @@ img {
 }
 
 .checkbox:checked + .modal-label-checkbox span {
-  background-color: var(--ocean-color);
-  border: none;
+  background-color: var(--ocean-color); 
   border: 1px solid var(--ocean-color);
+  border: none;
   border-radius: 2px;
   fill: var(--cloud-color);
 }
@@ -810,7 +810,7 @@ img {
 .modal-label-checkbox span {
   width: 16px;
   height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);;
+  border: 1px solid var(--navy-color);
   border-radius: 2px;
   margin-right: 8px;
   display: inline-flex;
