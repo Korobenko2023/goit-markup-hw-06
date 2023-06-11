@@ -729,7 +729,7 @@ img {
 .modal-input {
   width: 360px;
   height: 40px;
-  border: 1px solid var(--navy-color);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   padding-left: 38px;
   background-color: transparent;
@@ -771,9 +771,9 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: var(--navy-color);
+  color: rgba(46, 47, 66, 0.4);
   padding: 8px 16px;
-  border: 1px solid var(--navy-color);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   resize: none;
   background-color: transparent;
@@ -809,14 +809,14 @@ img {
 .modal-label-checkbox span {
   width: 16px;
   height: 16px;
-  border: 1px solid var(--navy-color);
+  border: 1px solid rgba(46, 47, 66, 0.4); 
   border-radius: 2px;
   margin-right: 8px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
-  transition: background-color var(--tra-dur-and-func) border var(--tra-dur-and-func) fill var(--tra-dur-and-func);
+  transition: background-color var(--tra-dur-and-func), border var(--tra-dur-and-func), fill var(--tra-dur-and-func);
 }
 
 .privacy-link {
