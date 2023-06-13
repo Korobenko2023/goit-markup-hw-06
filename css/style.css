@@ -800,7 +800,6 @@ img {
 
 .checkbox:checked + .modal-label-checkbox span {
   background-color: var(--ocean-color); 
-  border: 1px solid var(--ocean-color);
   border: none;
   border-radius: 2px;
   fill: var(--cloud-color);
